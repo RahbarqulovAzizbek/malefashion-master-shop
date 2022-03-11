@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block content %}
     <!-- Breadcrumb Section Begin -->
@@ -11,7 +12,7 @@
                         {% if request.GET.tag %}
                             #{{ request.GET.tag }}
                         {% else %}
-                            Our Blog
+                            {% trans 'Our Blog' %}
                         {% endif %}
 
                     </h2>
@@ -33,7 +34,7 @@
                                 <span><img src="{% static 'img/icon/calendar.png' %}"
                                            alt="">{{ post.created_at|date:'d F Y' }}</span>
                                 <h5>{{ post.title|slice:'50' }}</h5>
-                                <a href="{% url 'blogs:blog_detail' post.pk %}">Read More</a>
+                                <a href="{% url 'blogs:blog_detail' post.pk %}">{% trans 'Read More' %}</a>
                             </div>
                         </div>
                     </div>

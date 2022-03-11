@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load my_tags %}
-
+{% load i18n %}
 
 {% block content %}
     <!-- Breadcrumb Section Begin -->
@@ -10,10 +10,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__text">
-                        <h4>Wish List</h4>
+                        <h4>{% trans 'Wish List' %}</h4>
                         <div class="breadcrumb__links">
-                            <a href="./index.html">Home</a>
-                            <span>Wish List</span>
+                            <a href="./index.html">{% trans 'Home' %}</a>
+                            <span>{% trans 'Wish List' %}</span>
                         </div>
                     </div>
                 </div>
@@ -31,20 +31,20 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="shop__product__option__left">
-                                    <p>Showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
-                                        of {{ page_obj.paginator.count }} results</p>
+                                    <p>{% trans 'Showing' %} {{ page_obj.start_index }}–{{ page_obj.end_index }}
+                                        of {{ page_obj.paginator.count }} {% trans %}</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="shop__product__option__right">
-                                    <p>Sort by Price:</p>
+                                    <p>{% trans 'Sort by Price' %}:</p>
                                     <select onchange="getParamSearch('price_sort', this.value)">
                                         <option value="">---</option>
                                         <option {% if request.GET.price_sort == 'price' %} selected {% endif %}
-                                                                                           value="price">Low To High
+                                                                                           value="price">{% trans 'Low To High' %}
                                         </option>
                                         <option {% if request.GET.price_sort == '-price' %} selected {% endif %}
-                                                                                            value="-price">High TO Low
+                                                                                            value="-price">{% trans 'High TO Low' %}
                                         </option>
                                     </select>
                                 </div>
@@ -57,20 +57,22 @@
                                 <div class="product__item {% if object.is_discount %}sale{% endif %}">
                                     <div class="product__item__pic set-bg" data-setbg="{{ object.image.url }}">
                                         {% if object.is_discount %}
-                                            <span class="label">Sale</span>
+                                            <span class="label">{% trans 'Sale' %}</span>
                                         {% endif %}
                                         {% if object.is_new %}
                                             <span style="background: yellow; color: #000;{% if object.is_discount %} margin-top: 1.7rem;{% endif %}"
-                                                  class="label">New</span>
+                                                  class="label">{% trans 'New' %}</span>
                                         {% endif %}
                                         <ul class="product__hover">
                                             <li>
-                                                <a href="{% url 'product:add_wishlist' object.pk %}?next={{ request.path }}">
-                                                    <img src="{% static 'img/icon/heart.png' %}" alt="">
-                                                </a>
+                                                {% if request.user.is_authenticated and object|is_wishlist:request.user %}
+                                                    <a href="{% url 'product:add_wishlist' object.pk %}?next={{ request.path }}">
+                                                        <img src="{% static 'img/icon/black_heart.png' %}" alt="">
+                                                    </a>
+                                                {% endif %}
                                             </li>
                                             <li><a href="#"><img src="{% static 'img/icon/compare.png' %}" alt="">
-                                                <span>Compare</span></a>
+                                                <span>{% trans Compare %}</span></a>
                                             </li>
                                             <li><a href="{% url 'shops:product_detail' pk=object.pk %}"><img
                                                     src="{% static 'img/icon/search.png' %}" alt=""></a>
@@ -79,7 +81,7 @@
                                     </div>
                                     <div class="product__item__text">
                                         <h6>{{ object.name }}</h6>
-                                        <a href="#" class="add-cart">+ Add To Cart</a>
+                                        <a href="#" class="add-cart">+ {% trans 'Add To Cart' %}</a>
                                         <div class="rating">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>

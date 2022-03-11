@@ -1,0 +1,1024 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-10 16:22+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: blog/models.py:6
+msgid "first name"
+msgstr "Ism"
+
+#: blog/models.py:7
+msgid "last name"
+msgstr "Sharif"
+
+#: blog/models.py:8
+msgid "avatar"
+msgstr "avatar"
+
+#: blog/models.py:23 blog/models.py:34 pages/models.py:6
+msgid "title"
+msgstr "Sarlavha"
+
+#: blog/models.py:35 pages/models.py:8
+msgid "description"
+msgstr "tavsif"
+
+#: blog/models.py:36
+msgid "main image"
+msgstr "asosiy rasm"
+
+#: blog/models.py:37 pages/models.py:9 pages/models.py:16
+msgid "banner"
+msgstr ""
+
+#: blog/models.py:42
+msgid "author"
+msgstr "Muallif"
+
+#: blog/models.py:47 shop/models.py:51
+msgid "tags"
+msgstr ""
+
+#: blog/models.py:49 blog/models.py:70 pages/models.py:26 shop/models.py:8
+#: shop/models.py:20 shop/models.py:32 shop/models.py:44 shop/models.py:56
+#: shop/models.py:105
+msgid "created at"
+msgstr "yaratilgan"
+
+#: blog/models.py:64
+msgid "post"
+msgstr ""
+
+#: blog/models.py:66 pages/models.py:21 shop/models.py:19 shop/models.py:31
+#: shop/models.py:43 shop/models.py:55 shop/models.py:67
+msgid "name"
+msgstr "nomi"
+
+#: blog/models.py:67 pages/models.py:22
+msgid "email"
+msgstr ""
+
+#: blog/models.py:68
+msgid "phone"
+msgstr "mobile raqam"
+
+#: blog/models.py:69
+msgid "comment"
+msgstr "izoh"
+
+#: pages/models.py:7
+msgid "collection"
+msgstr "to'plam"
+
+#: pages/models.py:10
+msgid "is active"
+msgstr ""
+
+#: pages/models.py:17
+msgid "banners"
+msgstr ""
+
+#: pages/models.py:23
+msgid "message"
+msgstr "habar"
+
+#: product/models.py:14
+msgid "user"
+msgstr "foydalanuvchi"
+
+#: product/models.py:15 product/models.py:21 product/models.py:36
+msgid "wishlist"
+msgstr "istaklar ro'yxatiga"
+
+#: product/models.py:20 shop/models.py:124
+msgid "product"
+msgstr "mahsulot"
+
+#: product/models.py:37
+msgid "wishlists"
+msgstr "yoqimli ro'yhat"
+
+#: shop/models.py:7
+msgid "code"
+msgstr "kod"
+
+#: shop/models.py:14 shop/models.py:91
+msgid "color"
+msgstr "rang"
+
+#: shop/models.py:15
+msgid "colors"
+msgstr "rang"
+
+#: shop/models.py:26 shop/models.py:97
+msgid "size"
+msgstr "o'lcham"
+
+#: shop/models.py:27
+msgid "sizes"
+msgstr "o'lcham"
+
+#: shop/models.py:38 shop/models.py:84
+msgid "brand"
+msgstr ""
+
+#: shop/models.py:39
+msgid "brands"
+msgstr ""
+
+#: shop/models.py:50 shop/models.py:103
+msgid "tag"
+msgstr ""
+
+#: shop/models.py:62 shop/models.py:78
+msgid "category"
+msgstr "turkum"
+
+#: shop/models.py:63
+msgid "categories"
+msgstr "turkum"
+
+#: shop/models.py:68
+msgid "image"
+msgstr "rasm"
+
+#: shop/models.py:69
+msgid "price"
+msgstr "narx"
+
+#: shop/models.py:70
+msgid "real price"
+msgstr "haqiqiy narx"
+
+#: shop/models.py:71
+msgid "discount"
+msgstr "chegirma"
+
+#: shop/models.py:72
+msgid "short description"
+msgstr "qisqa tavsif"
+
+#: shop/models.py:73
+msgid "long description"
+msgstr "to'liq tavsif"
+
+#: shop/models.py:125
+msgid "products"
+msgstr "mahsulot"
+
+#: templates/base.html:53
+msgid ""
+"The customer is at the heart of our unique business model, which includes "
+"design."
+msgstr "Mijoz bizning noyob biznes modelimizning markazida, shu jumladan"
+
+#: templates/base.html:61
+msgid "Clothing Store"
+msgstr "Kiyim do'koni"
+
+#: templates/base.html:62
+msgid "Trending Shoes"
+msgstr "Trenddagi poyabzal"
+
+#: templates/base.html:63 templates/main/index.html:60
+#: templates/main/index.html:388
+msgid "Accessories"
+msgstr "Aksessuarlar"
+
+#: templates/base.html:64 templates/main/index.html:274
+#: templates/main/shop.html:68 templates/main/wishlist.html:60
+msgid "Sale"
+msgstr "chegirma"
+
+#: templates/base.html:81
+msgid "NewLetter"
+msgstr ""
+
+#: templates/base.html:83
+msgid "Be the first to know about new arrivals, look books, sales & promos!"
+msgstr "Yangi kelganlar, kitoblar, sotuvlar va promolar haqida birinchi bo'lib xabardor bo'ling!"
+
+#: templates/base.html:100
+msgid "All rights reserved"
+msgstr "Barcha huquqlar himoyalangan"
+
+#: templates/base.html:100
+msgid "This template is made with"
+msgstr "Ushbu shablon yordamida yaratilgan"
+
+#: templates/base.html:101
+msgid "by"
+msgstr "tomonidan"
+
+#: templates/layouts/navbar.html:12
+msgid "Free shipping, 30-day return or refund guarantee."
+msgstr "Bepul yetkazib berish, 30 kunlik qaytarish yoki pulni qaytarish kafolati."
+
+#: templates/layouts/navbar.html:19
+msgid "Log Out"
+msgstr "Chiqish"
+
+#: templates/layouts/navbar.html:21
+msgid "Sign In"
+msgstr "Tizimga kirish"
+
+#: templates/layouts/navbar.html:48 templates/main/about.html:14
+#: templates/main/product_detail.html:11 templates/main/shop.html:23
+#: templates/main/shopping_cart.html:14 templates/main/wishlist.html:15
+msgid "Home"
+msgstr "Asosiy"
+
+#: templates/layouts/navbar.html:51 templates/main/product_detail.html:12
+#: templates/main/shop.html:21 templates/main/shop.html:24
+#: templates/main/shopping_cart.html:15
+msgid "Shop"
+msgstr ""
+
+#: templates/layouts/navbar.html:54
+msgid "Blog"
+msgstr ""
+
+#: templates/layouts/navbar.html:57 templates/main/about.html:12
+#: templates/main/about.html:15
+msgid "About Us"
+msgstr "Haqimizda"
+
+#: templates/layouts/navbar.html:60
+msgid "Contacts"
+msgstr "Aloqa"
+
+#: templates/layouts/shop_sidebar.html:13
+msgid "Filter Price"
+msgstr "Filtr narx"
+
+#: templates/layouts/shop_sidebar.html:25
+#: templates/main/product_detail.html:149
+msgid "Categories"
+msgstr "Turkum"
+
+#: templates/layouts/shop_sidebar.html:41
+msgid "Branding"
+msgstr ""
+
+#: templates/layouts/shop_sidebar.html:57
+#: templates/main/product_detail.html:100
+msgid "Size"
+msgstr "O'lcham"
+
+#: templates/layouts/shop_sidebar.html:71
+msgid "Colors"
+msgstr "Rang"
+
+#: templates/layouts/shop_sidebar.html:89
+msgid "Tags"
+msgstr ""
+
+#: templates/main/about.html:37
+msgid "Who We Are ?"
+msgstr "Biz kimmiz ?"
+
+#: templates/main/about.html:39
+msgid ""
+"Contextual advertising programs sometimes have strict policies that need to "
+"be adhered too. Let’s take Google as an example."
+msgstr "Kontekstli reklama dasturlari ba'zida talab qilinadigan qat'iy siyosatlarga ega ham amal qiling. Misol tariqasida Googleni olaylik."
+
+#: templates/main/about.html:45
+msgid "Who We Do ?"
+msgstr ""
+
+#: templates/main/about.html:47
+msgid ""
+"In this digital generation where information can be easily obtained within "
+"seconds, business cards still have retained their importance."
+msgstr "мUshbu raqamli avlodda ma'lumotni osongina olish mumkin seconds, business cards still have retained their importance."
+
+#: templates/main/about.html:53
+msgid "Why Choose Us"
+msgstr "Nima uchun bizni tanlayapsiz"
+
+#: templates/main/about.html:55
+msgid ""
+"A two or three storey house is the ideal way to maximise the piece of earth "
+"on which our home sits, but for older or infirm people."
+msgstr "Ikki yoki uch qavatli uy - bu er qismini maksimal darajada oshirishning ideal usuli bizning uyimiz o'tiradigan, lekin keksa yoki zaif odamlar uchun."
+
+#: templates/main/about.html:72
+msgid ""
+"Going out after work? Take your butane curling iron with you to the office, "
+"heat it up, style your hair before you leave the office and you won’t have "
+"to make a trip back home."
+msgstr "Ishdan keyin tashqariga chiqasizmi? Ofisdan chiqishdan oldin butanli jingalak dazmolingizni o'zingiz bilan ofisga olib boring, uni qizdiring, sochingizni turmaklaning va sizda bunday bo'lmaydi. uyga sayohat qilish uchun."
+
+#: templates/main/about.html:102
+msgid "Our"
+msgstr "bizning"
+
+#: templates/main/about.html:102
+msgid "Clients"
+msgstr "Mizojlar"
+
+#: templates/main/about.html:118
+msgid "Country"
+msgstr "Davlat"
+
+#: templates/main/about.html:127
+msgid "Happy"
+msgstr "Baxtli"
+
+#: templates/main/about.html:127
+msgid "Customer"
+msgstr "Xaridor"
+
+#: templates/main/about.html:141
+msgid "Our Team"
+msgstr "Bizning Jamoa"
+
+#: templates/main/about.html:142
+msgid "Meet Our Team"
+msgstr "Jamoamiz bilan tanishing"
+
+#: templates/main/about.html:172
+msgid "Delivery"
+msgstr "Yetqazib berish"
+
+#: templates/main/about.html:186
+msgid "Partner"
+msgstr "Hamkor"
+
+#: templates/main/about.html:187
+msgid "Happy Clients"
+msgstr "Baxtli Mijozlar"
+
+#: templates/main/blog_detail.html:15
+msgid "Comments"
+msgstr "Izohlar"
+
+#: templates/main/blog_detail.html:36
+msgid "share"
+msgstr "Ulashish"
+
+#: templates/main/blog_detail.html:51
+msgid ""
+"When designing an advertisement for a particular product many things should "
+"be researched like where it should be displayed"
+msgstr "Muayyan mahsulot uchun reklamani loyihalashda ko'p narsa kerak qaerda ko'rsatilishi kerakligi kabi tadqiq qilinadi"
+
+#: templates/main/blog_detail.html:56
+msgid ""
+"Vyo-Serum along with tightening the skin also reduces the fine lines "
+"indicating aging of skin. Problems like dark circles, puffiness, and crow’s "
+"feet can be control from the strong effects of this serum."
+msgstr "Vyo-serum terini taranglash bilan birga terining qarishini ko'rsatadigan nozik chiziqlarni ham kamaytiradi. Qorong'u doiralar, shishish va qarg'a kabi muammolar oyoqlarni bu sarumning kuchli ta'siridan nazorat qilish mumkin."
+
+#: templates/main/blog_detail.html:59
+msgid ""
+"Hydroderm is a multi-functional product that helps in reducing the cellulite "
+"and giving the body a toned shape, also helps in cleansing the skin from the "
+"root and not letting the pores clog, nevertheless also let’s sweeps out the "
+"wrinkles and all signs of aging from the sensitive near the eyes."
+msgstr "Hydroderm ko'p funktsiyali mahsulot bo'lib, u selülitni kamaytirishga va tanaga tonlangan shakl berishga yordam beradi, shuningdek terini tozalashga yordam beradi. Teshiklarning tiqilib qolishiga yo'l qo'ymaslik kerak, shunga qaramay keling, ko'z atrofidagi nozik ajinlar va barcha qarish belgilarini tozalaymiz."
+
+#: templates/main/blog_detail.html:89
+msgid "Previous Pod"
+msgstr "Oldingi Pod"
+
+#: templates/main/blog_detail.html:98
+msgid "Next Pod"
+msgstr "Keyingi Pod"
+
+#: templates/main/blog_detail.html:139
+msgid "Post Comment"
+msgstr "Fikr qoldirish"
+
+#: templates/main/blog_list.html:15
+msgid "Our Blog"
+msgstr "Bizning Blog"
+
+#: templates/main/blog_list.html:37 templates/main/index.html:491
+msgid "Read More"
+msgstr "Batafsil"
+
+#: templates/main/contact.html:17
+msgid "Information"
+msgstr "Malumot"
+
+#: templates/main/contact.html:18
+msgid "Contact Us"
+msgstr "Bog'lanish"
+
+#: templates/main/contact.html:20
+msgid ""
+"As you might expect of a company that began as a high-end interiors "
+"contractor, we pay strict attention."
+msgstr "Yuqori darajadagi interyer sifatida boshlangan kompaniyadan kutganingizdek pudratchi, biz qattiq e'tibor beramiz."
+
+#: templates/main/contact.html:25
+msgid "America"
+msgstr ""
+
+#: templates/main/contact.html:26
+msgid "195 E Parker Square Dr, Parker, CO 801"
+msgstr ""
+
+#: templates/main/contact.html:29
+msgid "France"
+msgstr ""
+
+#: templates/main/contact.html:48
+msgid "Send Message"
+msgstr "Habar Junatish"
+
+#: templates/main/index.html:21 templates/main/index.html:50
+#: templates/main/index.html:61 templates/main/index.html:72
+    msgid "Shop now"
+msgstr "Hozir xarid qiling"
+
+#: templates/main/index.html:49
+msgid "Clothing Collections 2030"
+msgstr "Kiyim kolleksiyalari 2030"
+
+#: templates/main/index.html:71
+msgid "Shoes Spring 2030"
+msgstr "Poyafzal bahor 2030"
+
+#: templates/main/index.html:87
+msgid "Best Sellers"
+msgstr "Eng yaxshi sotuvchilar"
+
+#: templates/main/index.html:88
+msgid "New Arrivals"
+msgstr "Yangi kelganlar"
+
+#: templates/main/index.html:89
+msgid "Hot Sales"
+msgstr "Issiq savdo"
+
+#: templates/main/index.html:107 templates/main/index.html:142
+#: templates/main/index.html:178 templates/main/index.html:213
+#: templates/main/index.html:248 templates/main/index.html:354
+#: templates/main/product_detail.html:259 templates/main/wishlist.html:84
+msgid "Add To Cart"
+msgstr "Savatchaga qo'shish"
+
+#: templates/main/index.html:136 templates/main/index.html:172
+#: templates/main/index.html:207 templates/main/index.html:278
+#: templates/main/shop.html:88
+msgid "Compare"
+msgstr "Solishtirish"
+
+#: templates/main/index.html:388
+msgid "Clothings Hot"
+msgstr "Kiyimlar issiq"
+
+#: templates/main/index.html:388
+msgid "Shoe Collection"
+msgstr "Poyafzal kolleksiyasi"
+
+#: templates/main/index.html:395
+msgid "Sale Of"
+msgstr "Sotish"
+
+#: templates/main/index.html:402
+msgid "Deal Of The Week"
+msgstr "Haftaning bitimi"
+
+#: templates/main/index.html:407
+msgid "Days"
+msgstr "Kunlar"
+
+#: templates/main/index.html:411
+msgid "Hours"
+msgstr "Soatlar"
+
+#: templates/main/index.html:415
+msgid "Minutes"
+msgstr "Daqiqlar"
+
+#: templates/main/index.html:419
+msgid "Seconds"
+msgstr "Soniyalar"
+
+#: templates/main/index.html:422
+msgid "Shop now "
+msgstr "Hozir Harid qiling"
+
+#: templates/main/index.html:454
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: templates/main/index.html:470
+msgid "Latest News"
+msgstr "So'ngi Yangiliklar"
+
+#: templates/main/index.html:471
+msgid "Fashion New Trends"
+msgstr "Yangi moda tendentsiyalari"
+
+#: templates/main/product_detail.html:13
+msgid "Product Details"
+msgstr "Mahsulot tafsilotlari"
+
+#: templates/main/product_detail.html:87
+msgid "Reviews"
+msgstr "Sharhlar"
+
+#: templates/main/product_detail.html:115
+msgid "Color"
+msgstr "Rang"
+
+#: templates/main/product_detail.html:139
+msgid "add to cart"
+msgstr "savatchaga qo'shish"
+
+#: templates/main/product_detail.html:142
+msgid "add to wishlist"
+msgstr "istaklar ro'yxatiga qo'shing"
+
+#: templates/main/product_detail.html:143
+msgid "Add To Compare"
+msgstr "Taqqoslash uchun qo'shing"
+
+#: templates/main/product_detail.html:146
+msgid "Guaranteed Safe Checkout"
+msgstr "Kafolatlangan xavfsiz chiqish"
+
+#: templates/main/product_detail.html:166
+msgid "Description"
+msgstr "tavsif"
+
+#: templates/main/product_detail.html:170
+msgid "Customer Previews"
+msgstr "Mijozlarni oldindan ko'rish"
+
+#: templates/main/product_detail.html:174
+msgid "Additional information"
+msgstr "Qo'shimcha ma'lumot"
+
+#: templates/main/product_detail.html:183
+#: templates/main/product_detail.html:191
+#: templates/main/product_detail.html:213
+msgid "Products Infomation"
+msgstr "Mahsulotlar haqida ma'lumot"
+
+#: templates/main/product_detail.html:193
+#: templates/main/product_detail.html:215
+msgid ""
+"A Pocket PC is a handheld computer, which features many of the same "
+"capabilities as a modern PC. These handy little devices allow individuals to "
+"retrieve and store e-mail messages, create a contact file, coordinate "
+"appointments, surf the internet, exchange text messages and more. Every "
+"product that is labeled as a Pocket PC must be accompanied with specific "
+"software to operate the unit and must feature a touchscreen and touchpad."
+msgstr "Pocket PC - bu zamonaviy shaxsiy kompyuter bilan bir xil imkoniyatlarga ega bo'lgan qo'l kompyuteri. Ushbu qulay kichik qurilmalar odamlarga elektron pochta xabarlarini olish va saqlash, kontakt faylini yaratish, muvofiqlashtirish imkonini beradi. uchrashuvlar, internetni kezish, matnli xabarlar almashish va boshqalar. Cho'ntak kompyuteri sifatida belgilangan har bir mahsulot qurilmani ishlatish uchun maxsus dasturiy ta'minot bilan birga bo'lishi va sensorli ekran va sensorli panelga ega bo'lishi kerak."
+
+#: templates/main/product_detail.html:196
+#: templates/main/product_detail.html:218
+msgid ""
+"As is the case with any new technology product, the cost of a Pocket PC was "
+"substantial during it’s early release. For approximately $700.00, consumers "
+"could purchase one of top-of-the-line Pocket PCs in 2003. These days, "
+"customers are finding that prices have become much more reasonable now that "
+"the newness is wearing off. For approximately $350.00, a new Pocket PC can "
+"now be purchased."
+msgstr "Har qanday yangi texnologiya mahsulotida bo'lgani kabi, cho'ntak kompyuterining narxi uning erta chiqarilishida sezilarli edi. Taxminan $700,00 evaziga iste'molchilar 2003 yilda eng yaxshi cho'ntak kompyuterlaridan birini sotib olishlari mumkin edi. Shu kunlarda, xaridorlar, yangilik eskirgandan so'ng, narxlar ancha oqilona bo'lib qolganini payqamoqda. Taxminan 350,00 dollarga yangi cho'ntak kompyuterini endi sotib olish mumkin."
+
+#: templates/main/product_detail.html:200
+#: templates/main/product_detail.html:222
+msgid "Material used"
+msgstr "Ishlatilgan material"
+
+#: templates/main/product_detail.html:202
+#: templates/main/product_detail.html:224
+msgid ""
+"Polyester is deemed lower quality due to its none natural quality’s. Made "
+"from synthetic materials, not natural like wool. Polyester suits become "
+"creased easily and are known for not being breathable. Polyester suits tend "
+"to have a shine to them compared to wool and cotton suits, this can make the "
+"suit look cheap. The texture of velvet is luxurious and breathable. Velvet "
+"is a great choice for dinner party jacket and can be worn all year round."
+msgstr "Polyester tabiiy sifatga ega emasligi sababli past sifat deb hisoblanadi. Jun kabi tabiiy emas, sintetik materiallardan tayyorlangan. Polyester kostyumlar osongina burishadi va nafas olmasligi bilan mashhur. Polyester kostyumlar moyil jun va paxta kostyumlari bilan solishtirganda ularga porloq bo'lish uchun, bu kostyumni arzon ko'rinishga olib kelishi mumkin. Velvetning tuzilishi hashamatli va nafas oladi. Velvet kechki ovqat uchun ko'ylagi uchun ajoyib tanlovdir va uni butun yil davomida kiyish mumkin."
+
+#: templates/main/product_detail.html:210
+msgid ""
+"Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud "
+"felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. "
+"Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras "
+"loremos."
+msgstr ""
+
+#: templates/main/product_detail.html:242
+msgid "Related Product"
+msgstr "Tegishli mahsulot"
+
+#: templates/main/product_detail.html:250 templates/main/shop.html:72
+#: templates/main/wishlist.html:64
+msgid "New"
+msgstr "Yangi"
+
+#: templates/main/shop.html:47 templates/main/wishlist.html:34
+msgid "Showing"
+msgstr "Koʻrsatilmoqda"
+
+#: templates/main/shop.html:52 templates/main/wishlist.html:40
+msgid "Sort by Price"
+msgstr "Narx bo'yicha saralash"
+
+#: templates/main/shop.html:55 templates/main/wishlist.html:44
+msgid "Low To High"
+msgstr "Pastdan Yuqoriga"
+
+#: templates/main/shop.html:56 templates/main/wishlist.html:47
+msgid "High TO Low"
+msgstr "Yuqoridan Pastgacha"
+
+#: templates/main/shopping_cart.html:12 templates/main/shopping_cart.html:16
+msgid "Shopping Cart"
+msgstr "Xarid savati"
+
+#: templates/main/shopping_cart.html:34
+msgid "Product"
+msgstr "Mahsulot"
+
+#: templates/main/shopping_cart.html:35
+msgid "Quantity"
+msgstr "Miqdori"
+
+#: templates/main/shopping_cart.html:36 templates/main/shopping_cart.html:92
+msgid "Total"
+msgstr "Umumiy"
+
+#: templates/main/shopping_cart.html:69
+msgid "Continue Shopping"
+msgstr "Xarid qilishda davom eting"
+
+#: templates/main/shopping_cart.html:74
+msgid "Update cart"
+msgstr "Savatni yangilash"
+
+#: templates/main/shopping_cart.html:81
+msgid "Discount codes"
+msgstr "Chegirma kodlari"
+
+#: templates/main/shopping_cart.html:84
+msgid "Apply"
+msgstr "Murojaat qiling"
+
+#: templates/main/shopping_cart.html:88
+msgid "Cart total"
+msgstr "Savat jami"
+
+#: templates/main/shopping_cart.html:91
+msgid "Subtotal"
+msgstr "Oraliq jami"
+
+#: templates/main/shopping_cart.html:94
+msgid "Proceed to checkout"
+msgstr "Ro'yxatdan o'chirilishda davom etish"
+
+#: templates/main/wishlist.html:13 templates/main/wishlist.html:16
+msgid "Wish List"
+msgstr "Istaklar roʻyxati"
+
+#: templates/registration/activate.html:4
+msgid "Activation Failure"
+msgstr "Faollashtirishda xato"
+
+#: templates/registration/activate.html:7
+msgid "Account activation failed."
+msgstr "Hisobni faollashtirish amalga oshmadi."
+
+#: templates/registration/activation_complete.html:5
+#: templates/registration/activation_complete_admin_pending.html:4
+msgid "Account Activated"
+msgstr "Hisob faollashtirilgan"
+
+#: templates/registration/activation_complete.html:20
+#: templates/registration/activation_complete_admin_pending.html:8
+msgid "Your account is now activated."
+msgstr "Hisobingiz endi faollashtirilgan."
+
+#: templates/registration/activation_complete.html:24
+msgid "You can "
+msgstr "Siz qilasiz"
+
+#: templates/registration/activation_complete_admin_pending.html:10
+msgid "Once a site administrator activates your account you can login."
+msgstr "Sayt administratori hisobingizni faollashtirgandan so'ng, siz tizimga kirishingiz mumkin."
+
+#: templates/registration/activation_email.html:6
+#: templates/registration/admin_approve_email.html:6
+msgid "registration"
+msgstr "ro'yxatgadan o'tish"
+
+#: templates/registration/activation_email.html:11
+#, python-format
+msgid ""
+"\n"
+"    You (or someone pretending to be you) have asked to register an account "
+"at\n"
+"    %(site_name)s.  If this wasn't you, please ignore this email\n"
+"    and your address will be removed from our records.\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.html:18
+#, python-format
+msgid ""
+"\n"
+"    To activate this account, please click the following link within the "
+"next\n"
+"    %(expiration_days)s days:\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.html:30
+#: templates/registration/admin_approve_email.html:23
+#, python-format
+msgid ""
+"\n"
+"    Sincerely,\n"
+"    %(site_name)s Management\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.txt:2
+#, python-format
+msgid ""
+"\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"%(site_name)s.  If this wasn't you, please ignore this email\n"
+"and your address will be removed from our records.\n"
+msgstr ""
+
+#: templates/registration/activation_email.txt:7
+#, python-format
+msgid ""
+"\n"
+"To activate this account, please click the following link within the next\n"
+"%(expiration_days)s days:\n"
+msgstr ""
+
+#: templates/registration/activation_email.txt:14
+#, python-format
+msgid ""
+"\n"
+"Sincerely,\n"
+"%(site_name)s Management\n"
+msgstr ""
+
+#: templates/registration/activation_email_subject.txt:1
+#: templates/registration/admin_approve_complete_email_subject.txt:1
+msgid "Account activation on"
+msgstr "Hisobni faollashtirish yoqilgan"
+
+#: templates/registration/admin_approve.html:4
+msgid "Approval Failure"
+msgstr "Tasdiqlash muvaffaqiyatsizligi"
+
+#: templates/registration/admin_approve.html:7
+msgid "Account Approval failed."
+msgstr "Hisobni tasdiqlash amalga oshmadi."
+
+#: templates/registration/admin_approve_complete.html:4
+msgid "Account Approved"
+msgstr "Hisob ma'qullangan"
+
+#: templates/registration/admin_approve_complete.html:8
+msgid "The user's account is now approved."
+msgstr "Endi foydalanuvchining hisobi tasdiqlangan."
+
+#: templates/registration/admin_approve_complete_email.html:6
+msgid "admin approval"
+msgstr "administrator roziligi"
+
+#: templates/registration/admin_approve_complete_email.html:11
+msgid ""
+"\n"
+"    Your account is now approved. You can \n"
+"    "
+msgstr ""
+
+#: templates/registration/admin_approve_complete_email.html:14
+msgid "log in."
+msgstr "tizimga kirish"
+
+#: templates/registration/admin_approve_complete_email.txt:2
+msgid ""
+"\n"
+"Your account is now approved. You can log in using the following link\n"
+msgstr "Hisobingiz endi tasdiqlangan. Quyidagi havola orqali tizimga kirishingiz mumkin"
+
+#: templates/registration/admin_approve_email.html:11
+#, python-format
+msgid ""
+"\n"
+"    The following user (%(user)s) has asked to register an account at\n"
+"    %(site_name)s.\n"
+"    "
+msgstr ""
+
+#: templates/registration/admin_approve_email.html:17
+msgid ""
+"\n"
+"    To approve this, please\n"
+"    "
+msgstr ""
+
+#: templates/registration/admin_approve_email.html:20
+msgid "click here"
+msgstr "bu yerni bosing"
+
+#: templates/registration/admin_approve_email.txt:2
+#, python-format
+msgid ""
+"\n"
+"The following user (%(user)s) has asked to register an account at\n"
+"%(site_name)s.\n"
+msgstr ""
+
+#: templates/registration/admin_approve_email.txt:6
+msgid ""
+"\n"
+"To approve this, please click the following link.\n"
+msgstr ""
+
+#: templates/registration/admin_approve_email_subject.txt:1
+msgid "Account approval on"
+msgstr "Hisobni tasdiqlash yoqilgan"
+
+#: templates/registration/login.html:5 templates/registration/login.html:43
+#: templates/registration/login.html:125
+msgid "Log in"
+msgstr "Tizimga kirish"
+
+#: templates/registration/login.html:38 templates/registration/login.html:120
+msgid "Forgot Password"
+msgstr "Parolni unutdingizmi"
+
+#: templates/registration/login.html:40 templates/registration/login.html:122
+#: templates/registration/registration_form.html:49
+msgid "Registration"
+msgstr "Ro'yhatdan o'tish"
+
+#: templates/registration/logout.html:4
+msgid "Logged out"
+msgstr "Hisobdan chiqdi"
+
+#: templates/registration/logout.html:7
+msgid "Successfully logged out"
+msgstr "Hisobdan muvaffaqiyatli chiqdi"
+
+#: templates/registration/password_change_done.html:4
+msgid "Password changed"
+msgstr "Parol o'zgartirildi"
+
+#: templates/registration/password_change_done.html:7
+msgid "Password successfully changed!"
+msgstr "Parol muvaffaqiyatli almashtirildi!"
+
+#: templates/registration/password_change_form.html:4
+#: templates/registration/password_change_form.html:10
+msgid "Change password"
+msgstr "Parolni o'zgartirish"
+
+#: templates/registration/password_reset_complete.html:4
+msgid "Password reset complete"
+msgstr "Parolni tiklash tugallandi"
+
+#: templates/registration/password_reset_complete.html:8
+msgid "Your password has been reset!"
+msgstr "Parolingiz qayta tiklandi!"
+
+#: templates/registration/password_reset_complete.html:9
+#, python-format
+msgid "You may now <a href=\"%(login_url)s\">log in</a>"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:10
+msgid "Confirm password reset"
+msgstr "Parolni tiklashni tasdiqlang"
+
+#: templates/registration/password_reset_confirm.html:14
+msgid "Enter your new password below to reset your password:"
+msgstr "Parolingizni tiklash uchun quyida yangi parolingizni kiriting:"
+
+#: templates/registration/password_reset_confirm.html:18
+msgid "Set password"
+msgstr "Parolni o'rnating"
+
+#: templates/registration/password_reset_done.html:4
+msgid "Password reset"
+msgstr "Parolni tiklash"
+
+#: templates/registration/password_reset_done.html:8
+msgid ""
+"\n"
+"    We have sent you an email with a link to reset your password. Please "
+"check\n"
+"    your email and click the link to continue.\n"
+"    "
+msgstr ""
+
+#: templates/registration/password_reset_email.html:3
+msgid "Greetings"
+msgstr "Salom"
+
+#: templates/registration/password_reset_email.html:5
+#, python-format
+msgid ""
+"\n"
+"You are receiving this email because you (or someone pretending to be you)\n"
+"requested that your password be reset on the %(domain)s site. If you do not\n"
+"wish to reset your password, please ignore this message.\n"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:11
+msgid ""
+"\n"
+"To reset your password, please click the following link, or copy and paste "
+"it\n"
+"into your web browser:\n"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:20
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:23
+msgid "Best regards"
+msgstr "Best regards"
+
+#: templates/registration/password_reset_email.html:24
+msgid "Management"
+msgstr "Boshqaruv"
+
+#: templates/registration/password_reset_form.html:4
+#: templates/registration/password_reset_form.html:15
+msgid "Reset password"
+msgstr "Parolni tiklash"
+
+#: templates/registration/password_reset_form.html:8
+msgid ""
+"\n"
+"    Forgot your password? Enter your email in the form below and we'll send "
+"you instructions for creating a new one.\n"
+"    "
+msgstr ""
+
+#: templates/registration/registration_closed.html:4
+msgid "Registration is closed"
+msgstr "Ro‘yxatga olish yopildi"
+
+#: templates/registration/registration_closed.html:7
+msgid "Sorry, but registration is closed at this moment. Come back later."
+msgstr "Kechirasiz, lekin hozirda roʻyxatdan oʻtish yopiq. Keyinroq qaytib keling."
+
+#: templates/registration/registration_complete.html:5
+msgid "Activation email sent"
+msgstr "Aktivatsiya elektron pochtasi yuborildi"
+
+#: templates/registration/registration_complete.html:16
+msgid "Please check your email to complete the registration process."
+msgstr "Roʻyxatdan oʻtish jarayonini yakunlash uchun elektron pochtangizni tekshiring."
+
+#: templates/registration/registration_form.html:5
+msgid "Register for an account"
+msgstr "Hisob qaydnomasi uchun ro'yxatdan o'ting"
+
+#: templates/registration/resend_activation_complete.html:4
+msgid "Account Activation Resent"
+msgstr "Hisobni faollashtirish qayta yuborildi"
+
+#: templates/registration/resend_activation_complete.html:8
+#, python-format
+msgid ""
+"\n"
+"  We have sent an email to %(email)s with further instructions.\n"
+"  "
+msgstr ""
+
+#: templates/registration/resend_activation_form.html:4
+msgid "Resend Activation Email"
+msgstr "Faollashtirish elektron pochtasini qayta yuboring"
+
+#: templates/registration/resend_activation_form.html:10
+msgid "Submit"
+msgstr "Yuborish"

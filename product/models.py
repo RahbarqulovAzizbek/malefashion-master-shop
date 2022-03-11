@@ -36,3 +36,4 @@ class WishListModel(models.Model):
         verbose_name = _('wishlist')
         verbose_name_plural = _('wishlists')
         unique_together = 'user', 'product'
+

@@ -1,0 +1,1026 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-10 16:22+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: blog/models.py:6
+msgid "first name"
+msgstr "имя"
+
+#: blog/models.py:7
+msgid "last name"
+msgstr "Фамилия"
+
+#: blog/models.py:8
+msgid "avatar"
+msgstr "аватар"
+
+#: blog/models.py:23 blog/models.py:34 pages/models.py:6
+msgid "title"
+msgstr "заглавие"
+
+#: blog/models.py:35 pages/models.py:8
+msgid "description"
+msgstr "описание"
+
+#: blog/models.py:36
+msgid "main image"
+msgstr "основное изображение"
+
+#: blog/models.py:37 pages/models.py:9 pages/models.py:16
+msgid "banner"
+msgstr "баннер"
+
+#: blog/models.py:42
+msgid "author"
+msgstr "автор"
+
+#: blog/models.py:47 shop/models.py:51
+msgid "tags"
+msgstr "теги"
+
+#: blog/models.py:49 blog/models.py:70 pages/models.py:26 shop/models.py:8
+#: shop/models.py:20 shop/models.py:32 shop/models.py:44 shop/models.py:56
+#: shop/models.py:105
+msgid "created at"
+msgstr "создано в"
+
+#: blog/models.py:64
+msgid "post"
+msgstr "пост"
+
+#: blog/models.py:66 pages/models.py:21 shop/models.py:19 shop/models.py:31
+#: shop/models.py:43 shop/models.py:55 shop/models.py:67
+msgid "name"
+msgstr "имя"
+
+#: blog/models.py:67 pages/models.py:22
+msgid "email"
+msgstr "Эл. адрес"
+
+#: blog/models.py:68
+msgid "phone"
+msgstr "Телефон номер"
+
+#: blog/models.py:69
+msgid "comment"
+msgstr "комментарий"
+
+#: pages/models.py:7
+msgid "collection"
+msgstr "коллекция"
+
+#: pages/models.py:10
+msgid "is active"
+msgstr "активен"
+
+#: pages/models.py:17
+msgid "banners"
+msgstr "баннеры"
+
+#: pages/models.py:23
+msgid "message"
+msgstr "сообщение"
+
+#: product/models.py:14
+msgid "user"
+msgstr "Пользователь"
+
+#: product/models.py:15 product/models.py:21 product/models.py:36
+msgid "wishlist"
+msgstr "список желаний"
+
+#: product/models.py:20 shop/models.py:124
+msgid "product"
+msgstr "товар"
+
+#: product/models.py:37
+msgid "wishlists"
+msgstr "список желаний"
+
+#: shop/models.py:7
+msgid "code"
+msgstr "код"
+
+#: shop/models.py:14 shop/models.py:91
+msgid "color"
+msgstr "цвет"
+
+#: shop/models.py:15
+msgid "colors"
+msgstr "цвета"
+
+#: shop/models.py:26 shop/models.py:97
+msgid "size"
+msgstr "размер"
+
+#: shop/models.py:27
+msgid "sizes"
+msgstr "размеры"
+
+#: shop/models.py:38 shop/models.py:84
+msgid "brand"
+msgstr "марка"
+
+#: shop/models.py:39
+msgid "brands"
+msgstr "бренды"
+
+#: shop/models.py:50 shop/models.py:103
+msgid "tag"
+msgstr "тег"
+
+#: shop/models.py:62 shop/models.py:78
+msgid "category"
+msgstr "категория"
+
+#: shop/models.py:63
+msgid "categories"
+msgstr "категории"
+
+#: shop/models.py:68
+msgid "image"
+msgstr "изображение"
+
+#: shop/models.py:69
+msgid "price"
+msgstr "цена"
+
+#: shop/models.py:70
+msgid "real price"
+msgstr "реальная цена"
+
+#: shop/models.py:71
+msgid "discount"
+msgstr "скидка"
+
+#: shop/models.py:72
+msgid "short description"
+msgstr "Краткое описание"
+
+#: shop/models.py:73
+msgid "long description"
+msgstr "длинное описание"
+
+#: shop/models.py:125
+msgid "products"
+msgstr "продукты"
+
+#: templates/base.html:53
+msgid ""
+"The customer is at the heart of our unique business model, which includes "
+"design."
+msgstr "Клиент находится в центре нашей уникальной бизнес-модели, которая включает в себя дизайн."
+
+#: templates/base.html:61
+msgid "Clothing Store"
+msgstr "Магазин одежды"
+
+#: templates/base.html:62
+msgid "Trending Shoes"
+msgstr "Трендовая обувь"
+
+#: templates/base.html:63 templates/main/index.html:60
+#: templates/main/index.html:388
+msgid "Accessories"
+msgstr "Аксессуары"
+
+#: templates/base.html:64 templates/main/index.html:274
+#: templates/main/shop.html:68 templates/main/wishlist.html:60
+msgid "Sale"
+msgstr "распродажа"
+
+#: templates/base.html:81
+msgid "NewLetter"
+msgstr "Новостная рассылка"
+
+#: templates/base.html:83
+msgid "Be the first to know about new arrivals, look books, sales & promos!"
+msgstr "Узнавайте первыми о новых поступлениях, лукбуках, распродажах и акциях!"
+
+#: templates/base.html:100
+msgid "All rights reserved"
+msgstr "Все права защищены"
+
+#: templates/base.html:100
+msgid "This template is made with"
+msgstr "Этот шаблон сделан с"
+
+#: templates/base.html:101
+msgid "by"
+msgstr "к"
+
+#: templates/layouts/navbar.html:12
+msgid "Free shipping, 30-day return or refund guarantee."
+msgstr "Бесплатная доставка, 30-дневная гарантия возврата или возврата денег."
+
+#: templates/layouts/navbar.html:19
+msgid "Log Out"
+msgstr "Выйти"
+
+#: templates/layouts/navbar.html:21
+msgid "Sign In"
+msgstr "Войти"
+
+#: templates/layouts/navbar.html:48 templates/main/about.html:14
+#: templates/main/product_detail.html:11 templates/main/shop.html:23
+#: templates/main/shopping_cart.html:14 templates/main/wishlist.html:15
+msgid "Home"
+msgstr "домашняя страница"
+
+#: templates/layouts/navbar.html:51 templates/main/product_detail.html:12
+#: templates/main/shop.html:21 templates/main/shop.html:24
+#: templates/main/shopping_cart.html:15
+msgid "Shop"
+msgstr "Магазин"
+
+#: templates/layouts/navbar.html:54
+msgid "Blog"
+msgstr "Блог"
+
+#: templates/layouts/navbar.html:57 templates/main/about.html:12
+#: templates/main/about.html:15
+msgid "About Us"
+msgstr "О нас"
+
+#: templates/layouts/navbar.html:60
+msgid "Contacts"
+msgstr "Контакты"
+
+#: templates/layouts/shop_sidebar.html:13
+msgid "Filter Price"
+msgstr "Фильтр Цена"
+
+#: templates/layouts/shop_sidebar.html:25
+#: templates/main/product_detail.html:149
+msgid "Categories"
+msgstr "Категории"
+
+#: templates/layouts/shop_sidebar.html:41
+msgid "Branding"
+msgstr "Брендинг"
+
+#: templates/layouts/shop_sidebar.html:57
+#: templates/main/product_detail.html:100
+msgid "Size"
+msgstr "Размер"
+
+#: templates/layouts/shop_sidebar.html:71
+msgid "Colors"
+msgstr "Размер"
+
+#: templates/layouts/shop_sidebar.html:89
+msgid "Tags"
+msgstr "теги"
+
+#: templates/main/about.html:37
+msgid "Who We Are ?"
+msgstr "Кто мы есть ?"
+
+#: templates/main/about.html:39
+msgid ""
+"Contextual advertising programs sometimes have strict policies that need to "
+"be adhered too. Let’s take Google as an example."
+msgstr "Программы контекстной рекламы иногда имеют строгие правила, которых также необходимо придерживаться. Возьмем в качестве примера Google."
+
+#: templates/main/about.html:45
+msgid "Who We Do ?"
+msgstr "Кто мы делаем?"
+
+#: templates/main/about.html:47
+msgid ""
+"In this digital generation where information can be easily obtained within "
+"seconds, business cards still have retained their importance."
+msgstr "В этом цифровом поколении, когда информацию можно легко получить за считанные секунды, визитные карточки по-прежнему сохраняют свое значение."
+
+#: templates/main/about.html:53
+msgid "Why Choose Us"
+msgstr "почему нужно выбрать нас"
+
+#: templates/main/about.html:55
+msgid ""
+"A two or three storey house is the ideal way to maximise the piece of earth "
+"on which our home sits, but for older or infirm people."
+msgstr "Двух- или трехэтажный дом — идеальный способ максимально увеличить участок земли, на котором стоит наш дом, но для пожилых или немощных людей."
+
+#: templates/main/about.html:72
+msgid ""
+"Going out after work? Take your butane curling iron with you to the office, "
+"heat it up, style your hair before you leave the office and you won’t have "
+"to make a trip back home."
+msgstr "Выход после работы? Возьмите бутановую плойку с собой в офис, нагрейте ее, уложите волосы перед выходом из офиса, и вам не придется возвращаться домой."
+
+#: templates/main/about.html:102
+msgid "Our"
+msgstr "Наш"
+
+#: templates/main/about.html:102
+msgid "Clients"
+msgstr "Клиенты"
+
+#: templates/main/about.html:118
+msgid "Country"
+msgstr "Страна"
+
+#: templates/main/about.html:127
+msgid "Happy"
+msgstr "Счастливый"
+
+#: templates/main/about.html:127
+msgid "Customer"
+msgstr "Клиент"
+
+#: templates/main/about.html:141
+msgid "Our Team"
+msgstr "Наша команда"
+
+#: templates/main/about.html:142
+msgid "Meet Our Team"
+msgstr "Познакомьтесь с нашей командой"
+
+#: templates/main/about.html:172
+msgid "Delivery"
+msgstr "Доставка"
+
+#: templates/main/about.html:186
+msgid "Partner"
+msgstr "Партнер"
+
+#: templates/main/about.html:187
+msgid "Happy Clients"
+msgstr "Счастливые клиенты"
+
+#: templates/main/blog_detail.html:15
+msgid "Comments"
+msgstr "Комментарии"
+
+#: templates/main/blog_detail.html:36
+msgid "share"
+msgstr "доля"
+
+#: templates/main/blog_detail.html:51
+msgid ""
+"When designing an advertisement for a particular product many things should "
+"be researched like where it should be displayed"
+msgstr "При разработке рекламы для конкретного продукта следует исследовать многие вещи, например, где он должен отображаться."
+
+#: templates/main/blog_detail.html:56
+msgid ""
+"Vyo-Serum along with tightening the skin also reduces the fine lines "
+"indicating aging of skin. Problems like dark circles, puffiness, and crow’s "
+"feet can be control from the strong effects of this serum."
+msgstr "Vyo-Serum не только подтягивает кожу, но и уменьшает мелкие морщинки, свидетельствующие о старении кожи. Такие проблемы, как темные круги, отечность и гусиные лапки, можно контролировать благодаря сильному воздействию этой сыворотки."
+
+#: templates/main/blog_detail.html:59
+msgid ""
+"Hydroderm is a multi-functional product that helps in reducing the cellulite "
+"and giving the body a toned shape, also helps in cleansing the skin from the "
+"root and not letting the pores clog, nevertheless also let’s sweeps out the "
+"wrinkles and all signs of aging from the sensitive near the eyes."
+msgstr "Hydroderm - многофункциональный продукт, который помогает уменьшить целлюлит и придать телу подтянутую форму, также помогает очистить кожу от корня и не дает закупорить поры, тем не менее, также позволяет убрать морщины и все признаки старения. чувствительные возле глаз."
+
+#: templates/main/blog_detail.html:89
+msgid "Previous Pod"
+msgstr "Предыдущий модуль"
+
+#: templates/main/blog_detail.html:98
+msgid "Next Pod"
+msgstr "Следующий пакет"
+
+#: templates/main/blog_detail.html:139
+msgid "Post Comment"
+msgstr "Оставить комментарий"
+
+#: templates/main/blog_list.html:15
+msgid "Our Blog"
+msgstr "Наш блог"
+
+#: templates/main/blog_list.html:37 templates/main/index.html:491
+msgid "Read More"
+msgstr "Подробнее"
+
+#: templates/main/contact.html:17
+msgid "Information"
+msgstr "Информация"
+
+#: templates/main/contact.html:18
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: templates/main/contact.html:20
+msgid ""
+"As you might expect of a company that began as a high-end interiors "
+"contractor, we pay strict attention."
+msgstr "Как и следовало ожидать от компании, которая начинала как подрядчик элитных интерьеров, мы уделяем пристальное внимание."
+
+#: templates/main/contact.html:25
+msgid "America"
+msgstr "Америка"
+
+#: templates/main/contact.html:26
+msgid "195 E Parker Square Dr, Parker, CO 801"
+msgstr ""
+
+#: templates/main/contact.html:29
+msgid "France"
+msgstr "Франция"
+
+#: templates/main/contact.html:48
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: templates/main/index.html:21 templates/main/index.html:50
+#: templates/main/index.html:61 templates/main/index.html:72
+msgid "Shop now"
+msgstr "Купить сейчас"
+
+#: templates/main/index.html:49
+msgid "Clothing Collections 2030"
+msgstr "Коллекции Одежды 2030"
+
+#: templates/main/index.html:71
+msgid "Shoes Spring 2030"
+msgstr "Обувь Весна 2030"
+
+#: templates/main/index.html:87
+msgid "Best Sellers"
+msgstr "Бестселлеры"
+
+#: templates/main/index.html:88
+msgid "New Arrivals"
+msgstr "Новые поступления"
+
+#: templates/main/index.html:89
+msgid "Hot Sales"
+msgstr "Горячие продажи"
+
+#: templates/main/index.html:107 templates/main/index.html:142
+#: templates/main/index.html:178 templates/main/index.html:213
+#: templates/main/index.html:248 templates/main/index.html:354
+#: templates/main/product_detail.html:259 templates/main/wishlist.html:84
+msgid "Add To Cart"
+msgstr "Добавить в корзину"
+
+#: templates/main/index.html:136 templates/main/index.html:172
+#: templates/main/index.html:207 templates/main/index.html:278
+#: templates/main/shop.html:88
+msgid "Compare"
+msgstr "Сравнивать"
+
+#: templates/main/index.html:388
+msgid "Clothings Hot"
+msgstr "Горячая одежда"
+
+#: templates/main/index.html:388
+msgid "Shoe Collection"
+msgstr "Коллекция обуви"
+
+#: templates/main/index.html:395
+msgid "Sale Of"
+msgstr "Продажа"
+
+#: templates/main/index.html:402
+msgid "Deal Of The Week"
+msgstr "Предложение недели"
+
+#: templates/main/index.html:407
+msgid "Days"
+msgstr "Дни"
+
+#: templates/main/index.html:411
+msgid "Hours"
+msgstr "Часы"
+
+#: templates/main/index.html:415
+msgid "Minutes"
+msgstr "Минуты"
+
+#: templates/main/index.html:419
+msgid "Seconds"
+msgstr "Секунды"
+
+#: templates/main/index.html:422
+msgid "Shop now "
+msgstr "Купить сейчас"
+
+#: templates/main/index.html:454
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: templates/main/index.html:470
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: templates/main/index.html:471
+msgid "Fashion New Trends"
+msgstr "Мода Новые Тенденции"
+
+#: templates/main/product_detail.html:13
+msgid "Product Details"
+msgstr "информация о продукте"
+
+#: templates/main/product_detail.html:87
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: templates/main/product_detail.html:115
+msgid "Color"
+msgstr "Цвет"
+
+#: templates/main/product_detail.html:139
+msgid "add to cart"
+msgstr "добавить в корзину"
+
+#: templates/main/product_detail.html:142
+msgid "add to wishlist"
+msgstr "добавить в список желаний"
+
+#: templates/main/product_detail.html:143
+msgid "Add To Compare"
+msgstr "Добавить к сравнению"
+
+#: templates/main/product_detail.html:146
+msgid "Guaranteed Safe Checkout"
+msgstr "Гарантированная безопасная оплата"
+
+#: templates/main/product_detail.html:166
+msgid "Description"
+msgstr "Описание"
+
+#: templates/main/product_detail.html:170
+msgid "Customer Previews"
+msgstr "Превью клиентов"
+
+#: templates/main/product_detail.html:174
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: templates/main/product_detail.html:183
+#: templates/main/product_detail.html:191
+#: templates/main/product_detail.html:213
+msgid "Products Infomation"
+msgstr "Информация о продуктах"
+
+#: templates/main/product_detail.html:193
+#: templates/main/product_detail.html:215
+msgid ""
+"A Pocket PC is a handheld computer, which features many of the same "
+"capabilities as a modern PC. These handy little devices allow individuals to "
+"retrieve and store e-mail messages, create a contact file, coordinate "
+"appointments, surf the internet, exchange text messages and more. Every "
+"product that is labeled as a Pocket PC must be accompanied with specific "
+"software to operate the unit and must feature a touchscreen and touchpad."
+msgstr "Pocket PC — это карманный компьютер, обладающий многими из тех же возможностей, что и современный ПК. Эти удобные небольшие устройства позволяют людям извлекать и хранить сообщения электронной почты, создавать контактный файл, координировать встречи, просматривать Интернет, обмениваться текстовыми сообщениями и многое другое. Каждый продукт, помеченный как Pocket PC, должен сопровождаться специальным программным обеспечением для управления устройством и должен иметь сенсорный экран и сенсорную панель."
+
+#: templates/main/product_detail.html:196
+#: templates/main/product_detail.html:218
+msgid ""
+"As is the case with any new technology product, the cost of a Pocket PC was "
+"substantial during it’s early release. For approximately $700.00, consumers "
+"could purchase one of top-of-the-line Pocket PCs in 2003. These days, "
+"customers are finding that prices have become much more reasonable now that "
+"the newness is wearing off. For approximately $350.00, a new Pocket PC can "
+"now be purchased."
+msgstr "Как и в случае с любым новым технологическим продуктом, стоимость Pocket PC была существенной во время его раннего выпуска. В 2003 году примерно за 700 долларов потребители могли купить один из лучших карманных компьютеров. В наши дни потребители обнаруживают, что цены стали гораздо более разумными, поскольку новизна устаревает. Приблизительно за 350 долларов можно купить новый Pocket PC."
+
+#: templates/main/product_detail.html:200
+#: templates/main/product_detail.html:222
+msgid "Material used"
+msgstr "Используемый материал"
+
+#: templates/main/product_detail.html:202
+#: templates/main/product_detail.html:224
+msgid ""
+"Polyester is deemed lower quality due to its none natural quality’s. Made "
+"from synthetic materials, not natural like wool. Polyester suits become "
+"creased easily and are known for not being breathable. Polyester suits tend "
+"to have a shine to them compared to wool and cotton suits, this can make the "
+"suit look cheap. The texture of velvet is luxurious and breathable. Velvet "
+"is a great choice for dinner party jacket and can be worn all year round."
+msgstr "«Полиэстер считается более низкого качества из-за того, что он не является натуральным. Изготовлен из синтетических материалов, а не из натуральных материалов, таких как шерсть. Костюмы из полиэстера легко мнутся и известны тем, что они не пропускают воздух. Костюмы из полиэстера, как правило, блестят по сравнению с шерстью и хлопком. костюмы, это может сделать костюм дешевым.Текстура бархата роскошная и дышащая.Вельвет - отличный выбор для вечернего жакета, и его можно носить круглый год."
+
+#: templates/main/product_detail.html:210
+msgid ""
+"Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud "
+"felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. "
+"Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras "
+"loremos."
+msgstr "Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos."
+
+#: templates/main/product_detail.html:242
+msgid "Related Product"
+msgstr "Похожий товар"
+
+#: templates/main/product_detail.html:250 templates/main/shop.html:72
+#: templates/main/wishlist.html:64
+msgid "New"
+msgstr "Новый"
+
+#: templates/main/shop.html:47 templates/main/wishlist.html:34
+msgid "Showing"
+msgstr "Показаны"
+
+#: templates/main/shop.html:52 templates/main/wishlist.html:40
+msgid "Sort by Price"
+msgstr "Сортировать по цене"
+
+#: templates/main/shop.html:55 templates/main/wishlist.html:44
+msgid "Low To High"
+msgstr "Снизу вверх"
+
+#: templates/main/shop.html:56 templates/main/wishlist.html:47
+msgid "High TO Low"
+msgstr "От высокого до низкого"
+
+#: templates/main/shopping_cart.html:12 templates/main/shopping_cart.html:16
+msgid "Shopping Cart"
+msgstr "Корзина"
+
+#: templates/main/shopping_cart.html:34
+msgid "Product"
+msgstr "Товар"
+
+#: templates/main/shopping_cart.html:35
+msgid "Quantity"
+msgstr "Количество"
+
+#: templates/main/shopping_cart.html:36 templates/main/shopping_cart.html:92
+msgid "Total"
+msgstr "Всего"
+
+#: templates/main/shopping_cart.html:69
+msgid "Continue Shopping"
+msgstr "Продолжить покупки"
+
+#: templates/main/shopping_cart.html:74
+msgid "Update cart"
+msgstr "Обновить корзину"
+
+#: templates/main/shopping_cart.html:81
+msgid "Discount codes"
+msgstr "Коды скидок"
+
+#: templates/main/shopping_cart.html:84
+msgid "Apply"
+msgstr "Применять"
+
+#: templates/main/shopping_cart.html:88
+msgid "Cart total"
+msgstr "Всего в корзине"
+
+#: templates/main/shopping_cart.html:91
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: templates/main/shopping_cart.html:94
+msgid "Proceed to checkout"
+msgstr "Перейти к оформлению заказа"
+
+#: templates/main/wishlist.html:13 templates/main/wishlist.html:16
+msgid "Wish List"
+msgstr "Список желаний"
+
+#: templates/registration/activate.html:4
+msgid "Activation Failure"
+msgstr "Ошибка активации"
+
+#: templates/registration/activate.html:7
+msgid "Account activation failed."
+msgstr "Не удалось активировать учетную запись."
+
+#: templates/registration/activation_complete.html:5
+#: templates/registration/activation_complete_admin_pending.html:4
+msgid "Account Activated"
+msgstr "Аккаунт активирован"
+
+#: templates/registration/activation_complete.html:20
+#: templates/registration/activation_complete_admin_pending.html:8
+msgid "Your account is now activated."
+msgstr "Теперь ваша учетная запись активирована."
+
+#: templates/registration/activation_complete.html:24
+msgid "You can "
+msgstr "Ты сможешь "
+
+#: templates/registration/activation_complete_admin_pending.html:10
+msgid "Once a site administrator activates your account you can login."
+msgstr "После того, как администратор сайта активирует вашу учетную запись, вы сможете войти в систему."
+
+#: templates/registration/activation_email.html:6
+#: templates/registration/admin_approve_email.html:6
+msgid "registration"
+msgstr "Регистрация"
+
+#: templates/registration/activation_email.html:11
+#, python-format
+msgid ""
+"\n"
+"    You (or someone pretending to be you) have asked to register an account "
+"at\n"
+"    %(site_name)s.  If this wasn't you, please ignore this email\n"
+"    and your address will be removed from our records.\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.html:18
+#, python-format
+msgid ""
+"\n"
+"    To activate this account, please click the following link within the "
+"next\n"
+"    %(expiration_days)s days:\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.html:30
+#: templates/registration/admin_approve_email.html:23
+#, python-format
+msgid ""
+"\n"
+"    Sincerely,\n"
+"    %(site_name)s Management\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.txt:2
+#, python-format
+msgid ""
+"\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"%(site_name)s.  If this wasn't you, please ignore this email\n"
+"and your address will be removed from our records.\n"
+msgstr ""
+
+#: templates/registration/activation_email.txt:7
+#, python-format
+msgid ""
+"\n"
+"To activate this account, please click the following link within the next\n"
+"%(expiration_days)s days:\n"
+msgstr ""
+
+#: templates/registration/activation_email.txt:14
+#, python-format
+msgid ""
+"\n"
+"Sincerely,\n"
+"%(site_name)s Management\n"
+msgstr ""
+
+#: templates/registration/activation_email_subject.txt:1
+#: templates/registration/admin_approve_complete_email_subject.txt:1
+msgid "Account activation on"
+msgstr "Активация аккаунта на"
+
+#: templates/registration/admin_approve.html:4
+msgid "Approval Failure"
+msgstr "Ошибка утверждения"
+
+#: templates/registration/admin_approve.html:7
+msgid "Account Approval failed."
+msgstr "Не удалось подтвердить учетную запись"
+
+#: templates/registration/admin_approve_complete.html:4
+msgid "Account Approved"
+msgstr "Учетная запись одобрена"
+
+#: templates/registration/admin_approve_complete.html:8
+msgid "The user's account is now approved."
+msgstr "Теперь учетная запись пользователя одобрена."
+
+#: templates/registration/admin_approve_complete_email.html:6
+msgid "admin approval"
+msgstr "одобрение администратора"
+
+#: templates/registration/admin_approve_complete_email.html:11
+msgid ""
+"\n"
+"    Your account is now approved. You can \n"
+"    "
+msgstr ""
+
+#: templates/registration/admin_approve_complete_email.html:14
+msgid "log in."
+msgstr "авторизоваться."
+
+#: templates/registration/admin_approve_complete_email.txt:2
+msgid ""
+"\n"
+"Your account is now approved. You can log in using the following link\n"
+msgstr ""
+
+#: templates/registration/admin_approve_email.html:11
+#, python-format
+msgid ""
+"\n"
+"    The following user (%(user)s) has asked to register an account at\n"
+"    %(site_name)s.\n"
+"    "
+msgstr ""
+
+#: templates/registration/admin_approve_email.html:17
+msgid ""
+"\n"
+"    To approve this, please\n"
+"    "
+msgstr ""
+
+#: templates/registration/admin_approve_email.html:20
+msgid "click here"
+msgstr "кликните сюда"
+
+#: templates/registration/admin_approve_email.txt:2
+#, python-format
+msgid ""
+"\n"
+"The following user (%(user)s) has asked to register an account at\n"
+"%(site_name)s.\n"
+msgstr ""
+
+#: templates/registration/admin_approve_email.txt:6
+msgid ""
+"\n"
+"To approve this, please click the following link.\n"
+msgstr ""
+
+#: templates/registration/admin_approve_email_subject.txt:1
+msgid "Account approval on"
+msgstr "Утверждение аккаунта"
+
+#: templates/registration/login.html:5 templates/registration/login.html:43
+#: templates/registration/login.html:125
+msgid "Log in"
+msgstr "Авторизоваться"
+
+#: templates/registration/login.html:38 templates/registration/login.html:120
+msgid "Forgot Password"
+msgstr "Забыл пароль"
+
+#: templates/registration/login.html:40 templates/registration/login.html:122
+#: templates/registration/registration_form.html:49
+msgid "Registration"
+msgstr "Регистрация"
+
+#: templates/registration/logout.html:4
+msgid "Logged out"
+msgstr "Вышли из"
+
+#: templates/registration/logout.html:7
+msgid "Successfully logged out"
+msgstr "Успешно вышел из системы"
+
+#: templates/registration/password_change_done.html:4
+msgid "Password changed"
+msgstr "пароль изменен"
+
+#: templates/registration/password_change_done.html:7
+msgid "Password successfully changed!"
+msgstr "Пароль успешно изменен!"
+
+#: templates/registration/password_change_form.html:4
+#: templates/registration/password_change_form.html:10
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: templates/registration/password_reset_complete.html:4
+msgid "Password reset complete"
+msgstr "Сброс пароля завершен"
+
+#: templates/registration/password_reset_complete.html:8
+msgid "Your password has been reset!"
+msgstr "Ваш пароль был сброшен!"
+
+#: templates/registration/password_reset_complete.html:9
+#, python-format
+msgid "You may now <a href=\"%(login_url)s\">log in</a>"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:10
+msgid "Confirm password reset"
+msgstr "Подтвердить сброс пароля"
+
+#: templates/registration/password_reset_confirm.html:14
+msgid "Enter your new password below to reset your password:"
+msgstr "Введите новый пароль ниже, чтобы сбросить пароль:"
+
+#: templates/registration/password_reset_confirm.html:18
+msgid "Set password"
+msgstr "Установка пароля"
+
+#: templates/registration/password_reset_done.html:4
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+#: templates/registration/password_reset_done.html:8
+msgid ""
+"\n"
+"    We have sent you an email with a link to reset your password. Please "
+"check\n"
+"    your email and click the link to continue.\n"
+"    "
+msgstr ""
+
+#: templates/registration/password_reset_email.html:3
+msgid "Greetings"
+msgstr "Greetings"
+
+#: templates/registration/password_reset_email.html:5
+#, python-format
+msgid ""
+"\n"
+"You are receiving this email because you (or someone pretending to be you)\n"
+"requested that your password be reset on the %(domain)s site. If you do not\n"
+"wish to reset your password, please ignore this message.\n"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:11
+msgid ""
+"\n"
+"To reset your password, please click the following link, or copy and paste "
+"it\n"
+"into your web browser:\n"
+msgstr ""
+
+#: templates/registration/password_reset_email.html:20
+msgid "Your username, in case you've forgotten:"
+msgstr "Ваше имя пользователя, если вы забыли:"
+
+#: templates/registration/password_reset_email.html:23
+msgid "Best regards"
+msgstr "С наилучшими пожеланиями"
+
+#: templates/registration/password_reset_email.html:24
+msgid "Management"
+msgstr "Управление"
+
+#: templates/registration/password_reset_form.html:4
+#: templates/registration/password_reset_form.html:15
+msgid "Reset password"
+msgstr "Сброс пароля"
+
+#: templates/registration/password_reset_form.html:8
+msgid ""
+"\n"
+"    Forgot your password? Enter your email in the form below and we'll send "
+"you instructions for creating a new one.\n"
+"    "
+msgstr ""
+
+#: templates/registration/registration_closed.html:4
+msgid "Registration is closed"
+msgstr "Регистрация закрыта"
+
+#: templates/registration/registration_closed.html:7
+msgid "Sorry, but registration is closed at this moment. Come back later."
+msgstr "Извините, но в данный момент регистрация закрыта. Вернуться позже."
+
+#: templates/registration/registration_complete.html:5
+msgid "Activation email sent"
+msgstr "Активационное письмо отправлено"
+
+#: templates/registration/registration_complete.html:16
+msgid "Please check your email to complete the registration process."
+msgstr "Пожалуйста, проверьте свою электронную почту, чтобы завершить процесс регистрации."
+
+#: templates/registration/registration_form.html:5
+msgid "Register for an account"
+msgstr "Зарегистрируйте аккаунт"
+
+#: templates/registration/resend_activation_complete.html:4
+msgid "Account Activation Resent"
+msgstr "Активация учетной записи повторена"
+
+#: templates/registration/resend_activation_complete.html:8
+#, python-format
+msgid ""
+"\n"
+"  We have sent an email to %(email)s with further instructions.\n"
+"  "
+msgstr ""
+
+#: templates/registration/resend_activation_form.html:4
+msgid "Resend Activation Email"
+msgstr "Отправить повторно письмо для активации"
+
+#: templates/registration/resend_activation_form.html:10
+msgid "Submit"
+msgstr "Представлять на рассмотрение"

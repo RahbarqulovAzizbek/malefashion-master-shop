@@ -1,10 +1,7 @@
-
 from pathlib import Path
 from decouple import config
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-
 
 SECRET_KEY = config('SECRET_KEY')
 
@@ -12,10 +9,11 @@ DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
+    'registration',
+    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -32,6 +30,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -58,7 +57,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-
 
 # Database
 
@@ -97,17 +95,25 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 
 LANGUAGE_CODE = 'en-us'
+
+LANGUAGES = (
+    ('en', '🇬🇧'),
+    ('ru', '🇷🇺'),
+    ('uz', '🇺🇿')
+)
+
+LOCALE_PATHS = BASE_DIR / 'locale',
+
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'en'
 
 TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 
@@ -129,3 +135,23 @@ try:
     from .local_settings import *
 except ImportError:
     pass
+
+ACCOUNT_ACTIVATION_DAYS = 7
+
+REGISTRATION_AUTO_LOGIN = False
+
+LOGIN_URL = '/accounts/login/'
+
+LOGIN_REDIRECT_URL = '/'
+
+LOGOUT_REDIRECT_URL = '/accounts/login/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'azizbekrakhbarkulov9174@gmail.com'
+EMAIL_HOST_PASSWORD = 'azizbek2001'
+
+DEFAULT_FROM_EMAIL = 'Email from Azizbek'

@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load i18n %}
 
 {% block content %}
     <!-- Blog Details Hero Begin -->
@@ -11,7 +12,7 @@
                         <ul>
                             <li>By {{ post.author }}</li>
                             <li>{{ post.created_at|date:'F d, Y' }}</li>
-                            <li>{{ post.comments.all.count }} Comments</li>
+                            <li>{{ post.comments.all.count }} {% trans 'Comments' %}</li>
                         </ul>
                     </div>
                 </div>
@@ -32,7 +33,7 @@
                 <div class="col-lg-8">
                     <div class="blog__details__content">
                         <div class="blog__details__share">
-                            <span>share</span>
+                            <span>{% trans 'share' %}</span>
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
@@ -47,18 +48,16 @@
                         </div>
                         <div class="blog__details__quote">
                             <i class="fa fa-quote-left"></i>
-                            <p>“When designing an advertisement for a particular product many things should be
-                                researched like where it should be displayed.”</p>
+                            <p>{% trans 'When designing an advertisement for a particular product many things should be researched like where it should be displayed' %}</p>
                             <h6>_ John Smith _</h6>
                         </div>
                         <div class="blog__details__text">
-                            <p>Vyo-Serum along with tightening the skin also reduces the fine lines indicating aging of
-                                skin. Problems like dark circles, puffiness, and crow’s feet can be control from the
-                                strong effects of this serum.</p>
-                            <p>Hydroderm is a multi-functional product that helps in reducing the cellulite and giving
-                                the body a toned shape, also helps in cleansing the skin from the root and not letting
-                                the pores clog, nevertheless also let’s sweeps out the wrinkles and all signs of aging
-                                from the sensitive near the eyes.</p>
+                            <p>
+                                {% trans 'Vyo-Serum along with tightening the skin also reduces the fine lines indicating aging of skin. Problems like dark circles, puffiness, and crow’s feet can be control from the strong effects of this serum.' %}
+                            </p>
+                            <p>
+                                {% trans 'Hydroderm is a multi-functional product that helps in reducing the cellulite and giving the body a toned shape, also helps in cleansing the skin from the root and not letting the pores clog, nevertheless also let’s sweeps out the wrinkles and all signs of aging from the sensitive near the eyes.' %}
+                            </p>
                         </div>
                         <div class="blog__details__option">
                             <div class="row">
@@ -87,7 +86,7 @@
                                     {% if post.get_previous_by_created_at %}
                                         <a href="{% url 'blogs:blog_detail' pk=post.get_previous_by_created_at.id %}"
                                            class="blog__details__btns__item">
-                                            <p><span class="arrow_left"></span> Previous Pod</p>
+                                            <p><span class="arrow_left"></span> {% trans 'Previous Pod' %}</p>
                                             <h5>{{ post.get_previous_by_created_at.title }}</h5>
                                         </a>
                                     {% endif %}
@@ -96,7 +95,7 @@
                                     {% if post.get_next_by_created_at %}
                                         <a href="{% url 'blogs:blog_detail' pk=post.get_next_by_created_at.id %}"
                                            class="blog__details__btns__item blog__details__btns__item--next">
-                                            <p>Next Pod <span class="arrow_right"></span></p>
+                                            <p>{% trans 'Next Pod' %} <span class="arrow_right"></span></p>
                                             <h5>{{ post.get_next_by_created_at.title }}</h5>
                                         </a>
                                     {% endif %}
@@ -137,7 +136,7 @@
                                         </div>
                                         <div class="col-lg-12 text-center">
                                             <textarea name="comment" placeholder="Comment"></textarea>
-                                            <button type="submit" class="site-btn">Post Comment</button>
+                                            <button type="submit" class="site-btn">{% trans 'Post Comment' %}</button>
                                         </div>
                                 </div>
                             </form>
